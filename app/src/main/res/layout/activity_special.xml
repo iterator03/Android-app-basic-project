@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.androidproject.androidproject.Special"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/textView3"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="40dp"
+        android:textColor="#692b2b"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="23dp"
+        android:singleLine="false"
+        android:hint="SCORE"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="FACEBOOK"
+        android:id="@+id/fb"
+        android:background="#1916b3"
+        android:padding="5dp"
+        android:textAlignment="center"
+        android:textColor="#f7e0f5"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:shadowColor="#ed5e5e"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="TWITTER"
+        android:id="@+id/tw"
+        android:background="#1916b3"
+        android:padding="5dp"
+        android:textAlignment="center"
+        android:textColor="#f7e0f5"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:shadowColor="#ed5e5e"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/fb" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="NETCAMP.IN"
+        android:id="@+id/net"
+        android:background="#1916b3"
+        android:padding="5dp"
+        android:textAlignment="center"
+        android:textColor="#f7e0f5"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:shadowColor="#ed5e5e"
+        android:layout_below="@+id/tw"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="HOME"
+        android:id="@+id/home"
+        android:background="#1916b3"
+        android:padding="5dp"
+        android:textAlignment="center"
+        android:textColor="#f7e0f5"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:shadowColor="#ed5e5e"
+        android:layout_below="@+id/net"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp" />
+</RelativeLayout>
